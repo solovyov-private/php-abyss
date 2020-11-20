@@ -2,8 +2,8 @@
 
 #### tg_bot_send_message.php
 - Gets `client_name` and `client_tel` from posted html/js form
-- Uses `blacklist.txt` to filter out blacklisted numbers
-- Parses `bot.ini` file for Telegram chat credentials
+- Uses `blacklist.txt` to filter out blacklisted phone numbers
+- Parses `bot.ini` file for Telegram API chat credentials
 - Sends message to Telegram chat using Token and ChatId
 
 #### blacklist.html
